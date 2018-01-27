@@ -8,3 +8,7 @@ Various scripts I use to plot using python:
   ![rois_glass_brain example image](https://raw.githubusercontent.com/lrq3000/neuro-python-plotting/master/img/rois_glass_brain.png)
 
   ![rois_bars example image](https://raw.githubusercontent.com/lrq3000/neuro-python-plotting/master/img/rois_bars.png)
+
+* plot-residual-errors-recursive-checker.ipynb is a Jupyter notebook that will recursively find all residual error images (ResMS.img|nii for SPM) and will compute descriptive statistics. Alert thresholds can be set for any feature of these statistics, and a report of the images reaching above those thresholds will be generated, with a histogram plot of residual error repartition as well as a neuroimage plot to spatially localize where the biggest errors are localized.
+
+![residual error recursive checker example image](https://raw.githubusercontent.com/lrq3000/neuro-python-plotting/master/img/residual-error-recursive-checker.png)
